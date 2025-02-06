@@ -1,23 +1,11 @@
-import React from 'react';
-
+import js from '../../public/images/js.png'
 const Skills = () => {
     return (
         <div>
-            <div className="card bg-base-100 image-full w-96 shadow-xl">
-  <figure>
-    <img
-      src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
-      alt="Shoes" />
-  </figure>
-  <div className="card-body">
-    <h2 className="card-title">Shoes!</h2>
-    <p>If a dog chews shoes whose shoes does he choose?</p>
-    <div className="card-actions justify-end">
-      <button className="btn btn-primary">Buy Now</button>
-    </div>
-  </div>
-</div>
-        </div>
+        <div className="bg-base-200 min-h-screen pt-28">
+          <h1 className='text-3xl font-bold text-center'>Skills</h1>
+        </div>    
+            </div>
     );
 };
 
