@@ -1,5 +1,3 @@
-import React from 'react';
-import { FaPaintBrush, FaCamera, FaCode, FaLaptopCode } from 'react-icons/fa';
 
 const About = () => {
   return (
@@ -28,20 +26,20 @@ const About = () => {
             </div>
             <div className="lg:flex justify-center lg:gap-8 mt-6">
               <div className="text-center">
-                <FaCode className="text-4xl text-indigo-600 mb-3" />
+                <h1 className="text-2xl font-bold text-indigo-600 mb-3" >Name</h1>
                 <p className="text-lg text-gray-700">Frontend Development</p>
               </div>
               <div className="text-center">
-                <FaLaptopCode className="text-4xl text-indigo-600 mb-3" />
-                <p className="text-lg text-gray-700">Web Technologies</p>
+              <h1 className="text-2xl font-bold text-indigo-600 mb-3" >Email</h1>
+              <p className="text-lg text-gray-700">tasniaahmed055@gmail.com</p>
               </div>
               <div className="text-center">
-                <FaPaintBrush className="text-4xl text-indigo-600 mb-3" />
-                <p className="text-lg text-gray-700">Creative Design</p>
+              <h1 className="text-2xl font-bold text-indigo-600 mb-3" >Date of Birth</h1>
+              <p className="text-lg text-gray-700">13 March 1999</p>
               </div>
               <div className="text-center">
-                <FaCamera className="text-4xl text-indigo-600 mb-3" />
-                <p className="text-lg text-gray-700">Photography</p>
+              <h1 className="text-2xl font-bold text-indigo-600 mb-3" >From</h1>
+              <p className="text-lg text-gray-700">Dhaka, Bangladesh</p>
               </div>
             </div>
           </div>

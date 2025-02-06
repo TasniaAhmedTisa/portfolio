@@ -8,12 +8,12 @@ const Navbar = () => {
     <li><Link to={"/education"}>Education</Link></li>
 
     <li><Link to={"/projects"}>Projects</Link></li>
-    <li><Link to={"/contact"}>Contact Us</Link></li>
+    <li><Link to={"/contact"}>Contact Me</Link></li>
 
 
     </>
     return (
-        <div className="navbar fixed z-10 bg-black/40 text-white mb-5 w-11/12 mx-auto">
+        <div className="navbar fixed z-10 bg-black/30 text-white mb-5 w-11/12 mx-auto">
   <div className="navbar-start">
     <div className="dropdown">
       <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden ">
@@ -36,16 +36,16 @@ const Navbar = () => {
         {links}
       </ul>
     </div>
-    <a className="btn btn-ghost text-2xl italic">Tasnia</a>
+    <p className=" pl-3 text-4xl italic bg-gradient-to-r from-green-500 via-blue-500 to-black hover:from-cyan-400 hover:to-blue-400 bg-clip-text text-transparent font-extrabold">Tasnia</p>
   </div>
   <div className="navbar-center hidden lg:flex">
-    <ul className="menu menu-horizontal px-1">
+    <ul className="menu menu-horizontal px-1 text-lg text-black font-bold">
         {links}
       
     </ul>
   </div>
   <div className="navbar-end gap-2">
-    <a className="btn bg-gradient-to-r from-blue-500 to-cyan-400 hover:from-cyan-400 hover:to-blue-400 transition-all">Hire me</a>
+    <a className="btn bg-gradient-to-r from-green-500 to-blue-400 hover:from-cyan-400 hover:to-blue-400 transition-all">Hire me</a>
 
   </div>
 </div>
