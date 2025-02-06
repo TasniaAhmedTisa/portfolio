@@ -1,0 +1,38 @@
+{
+    "projects": [
+      {
+        "id": 1,
+        "name": "Maraventure",
+        "image": "https://i.ibb.co.com/xKcr0BZV/pro1.png",
+        "techStack": ["Html","TailwindCss","React", "Node.js", "MongoDB"],
+        "description": "Maraventure is a Marathon Management System. This Marathon Management System is a platform that helps organize marathon events by connecting event organizers with participants. ",
+        "liveLink": "https://project-11-64e72.firebaseapp.com/",
+        "githubLink": "https://github.com/TasniaAhmedTisa/Maraventure",
+        "challenges": "Some challenges faced include handling state management in a complex React app, managing real-time data with WebSockets, and optimizing API performance.",
+        "improvements":"Future improvements include implementing user authentication using JWT, integrating real-time notifications, adding a scheduling feature for event organizers, and optimizing the UI for better mobile responsiveness using Tailwind CSS."
+      },
+      {
+        "id": 2,
+        "name": "SoulSpark",
+        "image": "https://i.ibb.co.com/nMGDfg10/Pr2.png",
+        "techStack": ["Html","TailwindCss","React", "Node.js", "MongoDB"],
+        "description": "SoulSpark is dedicated to creating meaningful connections by providing a secure, user-friendly platform that empowers individuals to find compatible life partners.",
+        "liveLink": "https://soulspark-32809.web.app/",
+        "githubLink": "https://github.com/TasniaAhmedTisa/soulSpark",
+        "challenges": "Challenges were related to integrating complex state management in React, setting up secure API endpoints with Node.js, and managing data relationships within MongoDB. The use of React's hooks for form validation and dynamic state updates added complexity.",
+        "improvements": "Future improvements include implementing a more robust search and filtering system, adding profile matching algorithms, and improving performance by using React’s memoization techniques for optimization. Additionally, integrating social login functionality could be a valuable feature."
+      },
+      {
+        "id": 3,
+        "name": "CrowdCube",
+        "image": "https://i.ibb.co.com/kVF5xTVq/pro2.png",
+        "techStack": ["Html","TailwindCss","React", "Node.js", "MongoDB","Express.js"],
+        "description": "A crowdfunding website is a platform where people can raise money for different projects, ideas, or causes by inviting others to contribute financially.",
+        "liveLink": "https://my-project-10-60b26.web.app/",
+        "githubLink": "https://github.com/TasniaAhmedTisa/Crowdcube",
+         "challenges": "The main challenges included building a scalable API with Express.js, handling user authentication and security with JWT, and optimizing MongoDB queries for faster access. Managing real-time transactions and updating data asynchronously added complexity.",
+        "improvements": "Future work will focus on adding unit testing with Jest, improving API performance by indexing MongoDB collections, and implementing a more interactive front-end with React animations and enhanced Tailwind CSS design patterns for a smoother user experience."
+      }
+    ]
+  }
+  

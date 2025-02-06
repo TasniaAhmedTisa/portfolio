@@ -39,7 +39,7 @@ const Navbar = () => {
     <p className=" pl-3 text-4xl italic bg-gradient-to-r from-green-500 via-blue-500 to-black hover:from-cyan-400 hover:to-blue-400 bg-clip-text text-transparent font-extrabold">Tasnia</p>
   </div>
   <div className="navbar-center hidden lg:flex">
-    <ul className="menu menu-horizontal px-1 text-lg text-black font-bold">
+    <ul className="menu menu-horizontal px-1 text-lg text-white font-bold">
         {links}
       
     </ul>
