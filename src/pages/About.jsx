@@ -2,11 +2,11 @@
 const About = () => {
   return (
     <div>
-      <section className=" pt-28 pb-10 px-6 md:px-12 lg:px-24">
+      <section className=" pt-28 pb-10 px-6 md:px-12 lg:px-24 bg-black">
         <div className="max-w-6xl mx-auto text-center">
-          <h2 className="text-4xl font-extrabold mb-6">About Me</h2>
+          <h2 className="text-4xl font-extrabold mb-8 text-white">About Me</h2>
           
-          <div className="bg-white shadow-lg rounded-lg p-8 space-y-8 text-left w-full">
+          <div className="bg-white shadow-lg rounded-lg p-8 space-y-8 text-left w-full mb-10">
             <p className="text-lg text-gray-700 leading-relaxed">
             I am a <span className="font-semibold text-indigo-600">Computer Science and Engineering graduate</span> with a strong passion for modern, responsive, and user-friendly web development. I have expertise in <strong>HTML, CSS, and JavaScript</strong>, and I effectively leverage <strong>Vite</strong> for swift and efficient development.
             </p>

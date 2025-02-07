@@ -3,9 +3,9 @@ import { FaEnvelope, FaPhoneAlt, FaWhatsapp } from 'react-icons/fa';
 
 const Contact = () => {
   return (
-    <div className="bg-gray-100 py-28 px-6 md:px-12 lg:px-24">
+    <div className="bg-black py-28 px-6 md:px-12 lg:px-24">
         <div>
-        <div className="hero bg-base-200 min-h-screen">
+        <div className="hero bg-base-200 min-h-screen rounded-md">
   <div className="hero-content flex-col lg:flex-row-reverse">
     <div className="text-center lg:text-left">
       <h1 className="text-5xl font-bold">Let's Connect!</h1>
@@ -55,7 +55,7 @@ const Contact = () => {
         placeholder="Messasge"
         className="textarea textarea-bordered textarea-lg w-full max-w-xs"></textarea>
         <div className="form-control mt-6">
-          <button className="btn bg-gradient-to-r from-green-500 to-cyan-400 hover:from-cyan-400 hover:to-blue-400 transition-all">Submit</button>
+          <button className="btn bg-gradient-to-r from-purple-500 to-pink-300 hover:from-cyan-400 hover:to-blue-400 transition-all">Submit</button>
         </div>
         
       </form>

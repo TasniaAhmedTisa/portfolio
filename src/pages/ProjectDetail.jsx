@@ -10,7 +10,7 @@ const ProjectDetail = () => {
   }
 
   return (
-    <section className="py-28 bg-gray-100">
+    <section className="py-28 bg-black">
       <div className="container mx-auto px-6">
         {/* Project Header */}
         <div className="bg-white rounded-lg shadow-lg p-8 mb-8">
@@ -28,7 +28,7 @@ const ProjectDetail = () => {
               href={project.liveLink}
               target="_blank"
               rel="noopener noreferrer"
-              className="btn bg-gradient-to-r from-green-500 to-blue-400 text-white"
+              className="btn bg-gradient-to-r from-purple-500 to-pink-300 text-white"
             >
               Live Project
             </a>
